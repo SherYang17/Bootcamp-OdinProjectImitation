@@ -1,5 +1,224 @@
-div {
-    overflow: auto;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:
+}
+
+
+/* First Row */
+li {
+    list-style: none;
+}
+
+.firstrow {
+    background-color: #1F2937;
+}
+
+.headertext {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.headerlinktext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left:10px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.navfirst, .navsecond {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items:center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.secondsection {
+    display:flex;
+    flex-direction: row;
+    margin: 50px;
+}
+.secondfirst {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    width:50%;
+}
+
+.secondsecond {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    width:50%;
+}
+
+.secondtext {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.btnsignup {
+    background-color: #3882f6;
+    width:190px;
+    height:50px;
+    border: 1px #3882f6;
+    border-radius: 10px;
+}
+
+
+
+
+/* Beginning second row     */
+
+.secondrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+.bluesquarerows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width:100%;
+    margin: 100px;
+    align-items: center;
+}
+
+.bluesquaretextunder {
+
+}
+
+.bluesquares {
+    border: 2px solid #3882f6;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.textundersquare {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+/* third row */
+.thirdrow {
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: center;
+    margin: 50px;
+}
+
+.thirdrowptext {
+    font-size: 18px;
+    margin-right: -600px;
+
+}
+
+
+
+/* fourth row */
+.fourthrow {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluebackground {
+    background-color: #3882f6;
+    width: 75%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+h4 {
+    font-size: 24px;
+    color: white;
+}
+
+.fourthfirst {
+    width: 80%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fourthsecond {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+} 
+
+.fourthrowtext {
+    color: white;
+    font-size: 18px;
+}
+
+
+.btnsignuptwo {
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+
+/* FOOTER */ 
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    height: 100px;
+    align-items: center;
 }
 
 
@@ -11,14 +230,22 @@ div {
 
 
 
-/*
-To style the button, 
-    input[type=button] {
-    background-color: #04AA6D;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
