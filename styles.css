@@ -4,13 +4,14 @@
 }
 
 body {
-    font-family:
+    font-family: Calibri, 'Times New Roman', Times, serif
 }
 
 
 /* First Row */
 li {
     list-style: none;
+ 
 }
 
 .firstrow {
@@ -38,6 +39,7 @@ li {
     width: 50%;
     justify-content: center;
     align-items:center;
+    
 }
 
 ul {
@@ -49,6 +51,7 @@ h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-right: 200px;
 }
 
 .secondsection {
@@ -83,6 +86,9 @@ h1 {
     height:50px;
     border: 1px #3882f6;
     border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    margin-right: 300px;
 }
 
 
@@ -211,13 +217,13 @@ h4 {
 }
 
 
-/* FOOTER */ 
+/* FOOTER */
 .footer {
+    height: 100px;
     display: flex;
     justify-content: center;
     background-color: #1F2937;
     color: #e5e7eb;
-    height: 100px;
     align-items: center;
 }
 
